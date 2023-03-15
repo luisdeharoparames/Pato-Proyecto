@@ -9,7 +9,7 @@
                     <ul>2.Realizar un pedido en el Pato Gordo</ul>
                 </li>
                 <form method="POST" action=reseñas>
-                    <button type="submit">Añadir</button>
+                    <button class="botonStyleReseña" type="submit">Añadir</button>
                 </form>
             </article>
             <article id="article-resenas">

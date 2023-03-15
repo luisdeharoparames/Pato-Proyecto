@@ -2,10 +2,7 @@
     <section id="" class="container-fluid sectionMesas" style="background-image: URL(../assets/images/mesas.jpg);">
         <h2 class="textoContact py-4">Reseñas</h2>
         <div class="div-form">
-            <div class="container-form mx-4">
-                <!-- <form method="POST" action="cuenta">
-                    <button type="submit" class="button-mis_pedidos">Mis Pedidos</button>
-                </form> -->
+            <div class="container-form mx-4"> ,
                 <form id="enviar-resena">
                     <div class="px-3 pt-4">
                         <input class="form-control" name="nombreUser" placeholder="Nombre" id="nombre-user">

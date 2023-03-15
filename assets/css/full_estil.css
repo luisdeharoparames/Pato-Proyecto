@@ -502,7 +502,7 @@ button.botonStyleCarrito {
   height: 900px;
 }
 
-#cuenta{
+#cuenta {
   height: 900px;
 }
 /*Media Query Carrito*/
@@ -811,7 +811,7 @@ button.botonStyleCarrito {
 }
 
 /*div form*/
-.div-form{
+.div-form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -825,7 +825,6 @@ button.botonStyleCarrito {
   border-radius: 1rem;
 }
 
-
 /* Reseñas estrellas */
 .form-estrellas {
   display: flex;
@@ -833,16 +832,26 @@ button.botonStyleCarrito {
   align-items: center;
 }
 
-
-label{ color:grey;}
-input[type = "radio"]{ display:none;}
-.clasificacion{
-  direction: rtl;/* right to left */
-  unicode-bidi: bidi-override;/* bidi de bidireccional */
+/*Estrellas*/
+label {
+  color: grey;
 }
-label:hover{color:orange;}
-label:hover ~ label{color:orange;}
-input[type = "radio"]:checked ~ label{color:orange;}
+input[type="radio"] {
+  display: none;
+}
+.clasificacion {
+  direction: rtl; /* right to left */
+  unicode-bidi: bidi-override; /* bidi de bidireccional */
+}
+label:hover {
+  color: orange;
+}
+label:hover ~ label {
+  color: orange;
+}
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
 #form {
   width: 250px;
   margin: 0 auto;
@@ -879,6 +888,10 @@ input[type="radio"]:checked ~ label {
   color: orange;
 }
 
+.estrellas-reseña {
+  color: orange;
+}
+
 /* Resena div */
 .div-resena {
   background-color: #fff;
@@ -907,7 +920,7 @@ input[type="radio"]:checked ~ label {
   border-radius: 1rem;
 }
 
-.button-mis_pedidos{
+.button-mis_pedidos {
   border: 0px;
   background-color: #ff8200;
   color: white;
@@ -918,7 +931,28 @@ input[type="radio"]:checked ~ label {
 }
 
 .button-mis_pedidos:hover {
-  color:#ff8200;
+  color: #ff8200;
   background-color: #fff;
   border: 1px solid black;
+}
+
+/* div estrellas */
+.estrellas-div {
+  display: flex;
+}
+
+.botonStyleReseña {
+  border: 0px;
+  background-color: #ff8200;
+  color: white;
+  font-family: Eras Bold ITC;
+  border-radius: 19px;
+  padding: 6px 26px;
+  font-size: 17px;
+}
+
+.botonStyleReseña:hover {
+  background-color: #fff;
+  border: 1px solid black;
+  color: #ff8200;
 }
